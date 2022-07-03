@@ -1,0 +1,10 @@
+{
+  "name": "ebiyuu.com",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Ebihara Yusuke <me@ebiyuu.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@11ty/eleventy": "^1.0.1"
+  }
+}
