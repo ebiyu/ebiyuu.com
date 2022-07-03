@@ -15,6 +15,24 @@ main {
   padding: 12px 12px;
 }
 
+code, pre {
+  background-color: #eee;
+}
+
+code {
+  padding: 0 0.1em;
+}
+
+pre {
+  padding: 8px;
+}
+
+blockquote {
+  margin-left: 1em;
+  padding-left: 0.5em;
+  border-left: 0.5em solid #eee;
+}
+
 .Header {
   padding: 12px;
   background-color: #0070c0;
