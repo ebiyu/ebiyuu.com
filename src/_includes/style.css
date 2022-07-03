@@ -24,6 +24,14 @@ main {
   justify-content: space-between;
 }
 
+.Header__link {
+  color: white;
+}
+.Header__link:hover {
+  color: white;
+  text-decoration: none;
+}
+
 .Footer {
   padding: 12px 4px;
   background-color: lightgray;
@@ -35,4 +43,9 @@ main {
   font-size: 0.9em;
   color: gray;
   text-align: right;
+}
+
+.BlogList__date {
+  color: gray;
+  font-size: 0.9em;
 }
