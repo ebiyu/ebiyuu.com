@@ -30,3 +30,9 @@ main {
   display: flex;
   justify-content: space-between;
 }
+
+.BlogDate {
+  font-size: 0.9em;
+  color: gray;
+  text-align: right;
+}
