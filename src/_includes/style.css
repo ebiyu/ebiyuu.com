@@ -1,0 +1,32 @@
+* {
+  font-family: sans-serif;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+main {
+  padding: 12px 12px;
+}
+
+.Header {
+  padding: 12px;
+  background-color: #0070c0;
+  color: white;
+  font-size: 1.2em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Footer {
+  padding: 12px 4px;
+  background-color: lightgray;
+  display: flex;
+  justify-content: space-between;
+}

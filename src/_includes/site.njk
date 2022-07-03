@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{title}}</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css" rel="stylesheet">
+    <style>{% include "style.css" %}</style>
+  </head>
+  <body>
+    <div class="Header">
+    <div class="Header__brand">Yusuke Ebihara's website</div>
+    </div>
+    <main>
+      {{ content | safe }}
+    </main>
+    <footer class="Footer">
+      <div>
+        <span>built by 11ty</span>
+      </div>
+      <div>
+        <span>© 2022 Yusuke Ebihara</span>
+      </div>
+    </footer>
+  </body>
+</html>
