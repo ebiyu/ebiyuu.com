@@ -6,12 +6,12 @@ title: Yusuke Ebihara
 ## Profile
 
 - Yusuke Ebihara (海老原祐輔)
-- The University of Tokyo (M1 student) / Programmer (web, mobile)
+- M1 Student (electronics, The University of Tokyo) / Programmer (web, mobile)
 - Email: `yusuke+ebihara.me` (Please replace + with @)
 - Twitter: [@ebiyuu1121_](https://twitter.com/ebiyuu1121_)
 - Facebook: [Yusuke Ebihara](https://www.facebook.com/yuusuke.ebihara.7/)
 - Github: [ebiyuu1121](https://github.com/ebiyuu1121)
-- Game: Mario Kart 8DX / maimai / Mahjong
+- Favorite game: Mario Kart 8DX / maimai / Mahjong
 
 ## Experiences
 
@@ -30,33 +30,39 @@ title: Yusuke Ebihara
 - [東京大学サイエンスコミュニケーションサークルCAST](https://ut-cast.net/) (会計・ウェブ担当) [2018/04-2022/03]
 
 ## Awards
+
 - [2021年度未踏IT人材発掘・育成事業スーパークリエータ](https://www.ipa.go.jp/jinzai/mitou/2021/20220527.html)  [2022]
 - 全国物理コンテスト 物理チャレンジ2017 銀賞・実験優秀賞 [2017]
 
 ## Works
 
-- [2022/02] [全自動筋トレ記録システム「Muscle Supporter」](https://muscle-supporter.com/)
-- [2020/11] [東大CAST駒場祭特設サイト](https://ut-cast.net/komafes2020/)
-  - [ガチャガチャ企画(元素ガチャ)](https://ut-cast.net/komafes2020/gacha/)
-- [2020/09] [東大CAST五月祭特設サイト](https://ut-cast.net/mayfes2020/)
-  - [ミニゲーム「階段を作り出せ！」](https://ut-cast.net/mayfes2020/minigame/tsumiki/)
-  - [進捗企画「みんなで実験！円周率を求めよう！」](https://ut-cast.net/mayfes2020/data-collecting/)
-- [2020/06] [自作問題共有サービス「ポロロッカ」](https://pororocca.com/)
-- [various] [Ebi's web lab](https://lab.ebiyuu.com/)
+Includes collaborative works
+
+- [2022/02] [全自動筋トレ記録システム「Muscle Supporter」](https://muscle-supporter.com/) (iOS App / Machine learning)
+- [2020/11] [東大CAST駒場祭特設サイト](https://ut-cast.net/komafes2020/) (Web site)
+  - [ガチャガチャ企画(元素ガチャ)](https://ut-cast.net/komafes2020/gacha/) (Web app)
+- [2020/09] [東大CAST五月祭特設サイト](https://ut-cast.net/mayfes2020/) (Web site)
+  - [ミニゲーム「階段を作り出せ！」](https://ut-cast.net/mayfes2020/minigame/tsumiki/) (Unity project)
+  - [進捗企画「みんなで実験！円周率を求めよう！」](https://ut-cast.net/mayfes2020/data-collecting/) (Web app)
+- [2020/06] [自作問題共有サービス「ポロロッカ」](https://pororocca.com/) (Web app)
+- [various] [Ebi's web lab](https://lab.ebiyuu.com/) (Web app) ([source](https://github.com/ebiyuu1121/web-lab))
 
 ## Skills
 
 - Programming
   - Web frontend (HTML, CSS, JavaScript; Sass, Vue, Nuxt, React)
-  - Web backend (PHP, Go; Laravel, Django, Serverless)
+  - Web backend (PHP, Go, SQL; Laravel, Django; Serverless)
   - iOS app (Swift)
-  - Web cloud (AWS)
-  - Data analysis (Python, R)
-  - Machine learning
+  - Web cloud (AWS; EC2, S3, Lambda...)
+  - Data analysis / machine learning (Python, R; neural network)
   - Embedded programing (Arduino)
   - Others (C, C++, Excel VBA, Unity)
 - Electronics
+  - Circuit design
+  - LSI design (including verilog)
+  - Nano fabrication
 - Movie editing
+- Design (learning)
 
 ## Publications / Conference presentation
 
