@@ -5,7 +5,9 @@
   "author": "Ebihara Yusuke <me@ebiyuu.com>",
   "license": "MIT",
   "dependencies": {
-    "@11ty/eleventy": "^1.0.1"
+    "@11ty/eleventy": "^1.0.1",
+    "markdown-it-attrs": "^4.1.4",
+    "markdown-it-link-attributes": "^4.0.0"
   },
   "scripts": {
     "build": "eleventy",

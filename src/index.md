@@ -7,7 +7,7 @@ title: Yusuke Ebihara
 
 - Yusuke Ebihara (海老原祐輔)
 - The University of Tokyo (M1 student) / Programmer (web, mobile)
-- Email: yusuke+ebihara.me (Please replace + with @)
+- Email: `yusuke+ebihara.me` (Please replace + with @)
 - Twitter: [@ebiyuu1121_](https://twitter.com/ebiyuu1121_)
 - Facebook: [Yusuke Ebihara](https://www.facebook.com/yuusuke.ebihara.7/)
 - Github: [ebiyuu1121](https://github.com/ebiyuu1121)
