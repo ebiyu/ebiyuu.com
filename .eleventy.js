@@ -1,9 +1,13 @@
 const markdownIt = require('markdown-it');
 const markdownItAttrs = require('markdown-it-attrs');
 const markdownItLinkAttributes = require('markdown-it-link-attributes');
+const faviconPlugin = require("eleventy-favicon");
 const { format: formatDate } = require('date-fns');
 
 module.exports = function (eleventyConfig) {
+  // favicon
+  eleventyConfig.addPlugin(faviconPlugin, { destination: './dist' });
+
   // timestamp
   eleventyConfig.addGlobalData("builtAt", formatDate(new Date(), 'yyyy/MM/dd HH:mm'))
 
