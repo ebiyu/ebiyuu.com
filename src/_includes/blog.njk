@@ -3,7 +3,7 @@ layout: site.njk
 ---
 
 <h1>{{ title }}</h1>
-<div class="BlogDate">{{ date }}</div>
+<div class="BlogDate">{{ date | formatDate }}</div>
 <div>
   {{ content | safe}}
 </div>

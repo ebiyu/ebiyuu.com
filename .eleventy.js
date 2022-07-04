@@ -5,7 +5,7 @@ const { format: formatDate } = require('date-fns');
 
 module.exports = function (eleventyConfig) {
   // timestamp
-  eleventyConfig.addGlobalData("builtAt", formatDate(new Date(), 'yyyy/MM/dd HH:mm'))
+  eleventyConfig.addGlobalData("builtAt", new Date());
 
   // image
   eleventyConfig.addPassthroughCopy("src/**/*.png");
@@ -16,6 +16,10 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addCollection("posts", function(collectionApi) {
     return collectionApi.getFilteredByGlob("src/post/*/**/*");
   });
+
+  // filters
+  eleventyConfig.addFilter("formatDate", (value) => formatDate(value, "yyyy/MM/dd"));
+  eleventyConfig.addFilter("formatTime", (value) => formatDate(value, "yyyy/MM/dd HH:mm"));
 
   // markdown
   const mdOptions = {
