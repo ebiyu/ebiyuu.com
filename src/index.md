@@ -32,7 +32,7 @@ title: Yusuke Ebihara
 ## Awards
 
 - [2021年度未踏IT人材発掘・育成事業スーパークリエータ](https://www.ipa.go.jp/jinzai/mitou/2021/20220527.html)  [2022]
-- 全国物理コンテスト 物理チャレンジ2017 銀賞・実験優秀賞 [2017]
+- [全国物理コンテスト 物理チャレンジ2017 銀賞・実験優秀賞](http://www.jpho.jp/2017schedule.html) [2017]
 
 ## Works
 
