@@ -29,11 +29,6 @@ title: Yusuke Ebihara
 - [2021年度工学部研究成果発表会](https://2021.eeic.jp/) (企画統括) [2021/05]
 - [東京大学サイエンスコミュニケーションサークルCAST](https://ut-cast.net/) (会計・ウェブ担当) [2018/04-2022/03]
 
-## Awards
-
-- [2021年度未踏IT人材発掘・育成事業スーパークリエータ](https://www.ipa.go.jp/jinzai/mitou/2021/20220527.html)  [2022]
-- [全国物理コンテスト 物理チャレンジ2017 銀賞・実験優秀賞](http://www.jpho.jp/2017schedule.html) [2017]
-
 ## Works
 
 Includes collaborative works
@@ -63,6 +58,11 @@ Includes collaborative works
   - Nano fabrication
 - Movie editing
 - Design (learning)
+
+## Awards
+
+- [2021年度未踏IT人材発掘・育成事業スーパークリエータ](https://www.ipa.go.jp/jinzai/mitou/2021/20220527.html)  [2022]
+- [全国物理コンテスト 物理チャレンジ2017 銀賞・実験優秀賞](http://www.jpho.jp/2017schedule.html) [2017]
 
 ## Publications / Conference presentation
 
