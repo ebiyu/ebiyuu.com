@@ -1,8 +1,11 @@
 const markdownIt = require('markdown-it');
 const markdownItAttrs = require('markdown-it-attrs');
 const markdownItLinkAttributes = require('markdown-it-link-attributes');
+const { format: formatDate } = require('date-fns');
 
 module.exports = function (eleventyConfig) {
+  // timestamp
+  eleventyConfig.addGlobalData("builtAt", formatDate(new Date(), 'yyyy/MM/dd HH:mm'))
 
   // image
   eleventyConfig.addPassthroughCopy("src/**/*.png");
