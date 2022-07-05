@@ -21,7 +21,7 @@ module.exports = function (eleventyConfig) {
     return collectionApi.getFilteredByGlob("src/post/*/**/*").slice().reverse();
   });
   eleventyConfig.addCollection("recentPosts", function(collectionApi) {
-    return collectionApi.getFilteredByGlob("src/post/*/**/*").slice().reverse().slice(0, 3);
+    return collectionApi.getFilteredByGlob("src/post/*/**/*").slice().reverse().slice(0, 5);
   });
 
   // filters
