@@ -24,10 +24,11 @@ title: Yusuke Ebihara
 
 ## Projects
 
-- [2021年度未踏IT人材発掘・育成事業](https://www.ipa.go.jp/jinzai/mitou/2021/gaiyou_sd-3.html) (クリエータ) [2021/06-2022/03]
-- [東大学内チェックインアプリ「MOCHA」](https://mocha.t.u-tokyo.ac.jp) (PR担当・ウェブ担当) [2020/09-]
-- [2021年度工学部研究成果発表会](https://2021.eeic.jp/) (企画統括) [2021/05]
-- [東京大学サイエンスコミュニケーションサークルCAST](https://ut-cast.net/) (会計・ウェブ担当) [2018/04-2022/03]
+- [2021年度未踏IT人材発掘・育成事業](https://www.ipa.go.jp/jinzai/mitou/2021/gaiyou_sd-3.html) (クリエータ) [2021-2022]
+- [東大学内チェックインアプリ「MOCHA」](https://mocha.t.u-tokyo.ac.jp) (PR担当・ウェブ担当) [2020-]
+- [2021年度工学部研究成果発表会](https://2021.eeic.jp/) (企画統括・VTuberモデリング・ウェブ開発担当) [2021]
+- [Лироша Channel リローシャチャンネル](https://www.youtube.com/channel/UC5T-TP6eOGbX9DVXpLtevEA) (企画・動画編集) [2018-2019]
+- [東京大学サイエンスコミュニケーションサークルCAST](https://ut-cast.net/) (会計・ウェブ担当) [2018-2022]
 
 ## Works
 
