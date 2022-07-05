@@ -15,10 +15,10 @@ title: Yusuke Ebihara
 
 ## Experiences
 
-- [2022/04-] 東京大学大学院工学系研究科 [染谷研究室](http://www.ntech.t.u-tokyo.ac.jp) (Organic / flexible electronics)
 - [2022/04-] 東京大学大学院工学系研究科 [電気系工学専攻](https://www.eeis.t.u-tokyo.ac.jp)
-- [2021/04-2022/03] 東京大学工学部 [三田研究室](https://www.if.t.u-tokyo.ac.jp) (MEMS)
+  - [2022/04-] 東京大学大学院工学系研究科 [染谷研究室](http://www.ntech.t.u-tokyo.ac.jp) (Organic / flexible electronics)
 - [2020/04-2022/03] 東京大学工学部 [電気電子工学科](https://www.ee.t.u-tokyo.ac.jp/)
+  - [2021/04-2022/03] 東京大学工学部 [三田研究室](https://www.if.t.u-tokyo.ac.jp) (MEMS)
 - [2018/04-2020/03] 東京大学教養学部理科一類
 
 
