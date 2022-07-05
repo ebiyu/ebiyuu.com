@@ -9,7 +9,7 @@ title: Blog
   技術系記事から関係ないことまで、いろいろ書くブログ。
 </p>
 
-{%- for post in collections.posts.reverse() -%}
+{%- for post in collections.posts -%}
   <li>
     <a href="{{post.url}}">{{ post.data.title }}</a>
     <span class="BlogList__date">

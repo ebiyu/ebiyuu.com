@@ -67,3 +67,16 @@ Includes collaborative works
 ## Publications / Conference presentation
 
 - <u>Yusuke Ebihara</u>, Ayako Mizushima, Takashi Yoda , Kenji Hirakawa, Masayuki Iwase, Munehiro Ogasawara, Akio Higo, Yukinori Ochiai, and Yoshio Mita, "Two-pads per electrode in-situ test structure for micron-scale flip-chip bonding reliability of chip-on-chip device", <i>34th IEEE International Conference on Microelectronic Test Structures (ICMTS)</i>, online, March 21-24, 2022
+
+## Recent blog posts
+
+<ul>
+{%- for post in collections.recentPosts -%}
+  <li>
+    {{ post.data.date | formatDate }}
+    <a href="{{post.url}}">{{ post.data.title }}</a>
+  </li>
+{%- endfor -%}
+</ul>
+
+

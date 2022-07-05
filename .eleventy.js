@@ -18,7 +18,10 @@ module.exports = function (eleventyConfig) {
   // blog
   eleventyConfig.addLayoutAlias("blog", "blog.njk");
   eleventyConfig.addCollection("posts", function(collectionApi) {
-    return collectionApi.getFilteredByGlob("src/post/*/**/*");
+    return collectionApi.getFilteredByGlob("src/post/*/**/*").slice().reverse();
+  });
+  eleventyConfig.addCollection("recentPosts", function(collectionApi) {
+    return collectionApi.getFilteredByGlob("src/post/*/**/*").slice().reverse().slice(0, 3);
   });
 
   // filters
