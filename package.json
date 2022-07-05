@@ -13,6 +13,7 @@
   },
   "scripts": {
     "build": "eleventy",
-    "dev": "eleventy --serve"
+    "dev": "eleventy --serve",
+    "new-post": "node scripts/new-post.js"
   }
 }
