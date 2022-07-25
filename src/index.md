@@ -11,7 +11,9 @@ title: Yusuke Ebihara
 - Twitter: [@ebiyuu1121_](https://twitter.com/ebiyuu1121_)
 - Facebook: [Yusuke Ebihara](https://www.facebook.com/yuusuke.ebihara.7/)
 - Github: [ebiyuu1121](https://github.com/ebiyuu1121)
-- Favorite game: Mario Kart 8DX / maimai / Mahjong
+- Like
+  - Editor: vim ([.vim](https://github.com/ebiyuu1121/dotfiles/tree/master/vim))
+  - Game: Mario Kart 8DX / maimai / Mahjong / minecraft
 
 ## Experiences
 
