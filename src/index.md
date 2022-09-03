@@ -43,7 +43,7 @@ Includes collaborative works
   - [ミニゲーム「階段を作り出せ！」](https://ut-cast.net/mayfes2020/minigame/tsumiki/) (Unity project)
   - [進捗企画「みんなで実験！円周率を求めよう！」](https://ut-cast.net/mayfes2020/data-collecting/) (Web app)
 - [2020/06] [自作問題共有サービス「ポロロッカ」](https://pororocca.com/) (Web app)
-- [various] [Ebi's web lab](https://lab.ebiyuu.com/) (Web app) ([source](https://github.com/ebiyuu1121/web-lab))
+- [Ebi's web lab](https://lab.ebiyuu.com/) (Web app) ([source](https://github.com/ebiyuu1121/web-lab))
 
 ## Skills
 
