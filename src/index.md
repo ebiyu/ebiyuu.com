@@ -67,9 +67,10 @@ Includes collaborative works
 - [2021年度未踏IT人材発掘・育成事業スーパークリエータ](https://www.ipa.go.jp/jinzai/mitou/2021/20220527.html)  [2022]
 - [全国物理コンテスト 物理チャレンジ2017 銀賞・実験優秀賞](http://www.jpho.jp/2017schedule.html) [2017]
 
-## Publications / Conference presentation
+## Conference presentation
 
-- <u>Yusuke Ebihara</u>, Ayako Mizushima, Takashi Yoda , Kenji Hirakawa, Masayuki Iwase, Munehiro Ogasawara, Akio Higo, Yukinori Ochiai, and Yoshio Mita, "Two-pads per electrode in-situ test structure for micron-scale flip-chip bonding reliability of chip-on-chip device", <i>34th IEEE International Conference on Microelectronic Test Structures (ICMTS)</i>, online, March 21-24, 2022
+- <u>Yusuke Ebihara</u>, Ayako Mizushima, Takashi Yoda , Kenji Hirakawa, Masayuki Iwase, Munehiro Ogasawara, Akio Higo, Yukinori Ochiai, and Yoshio Mita, "Two-pads per electrode in-situ test structure for micron-scale flip-chip bonding reliability of chip-on-chip device", <i>34th IEEE International Conference on Microelectronic Test Structures (ICMTS)</i>, online, March 21-24, 2022, https://doi.org/10.1109/ICMTS50340.2022.9898248
+- <u>海老原祐輔</u>, 三室真帆, 李成薫, 横田知之, 染谷隆夫, 「金ナノメッシュ電極を用いた皮膚インピーダンスの周波数特性の計測」, 第83回応用物理学会秋季学術講演会, 東北大学川内北キャンパス, Sep. 22, 2022
 
 <hr>
 
