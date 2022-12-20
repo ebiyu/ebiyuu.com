@@ -57,8 +57,7 @@ Includes collaborative works
   - Others (C, C++, Excel VBA, Unity)
 - Electronics
   - Circuit design
-  - LSI design (including verilog)
-  - Nano fabrication
+  - LSI design / verilog
 - Movie editing
 - Design (learning)
 
