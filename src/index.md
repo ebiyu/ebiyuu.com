@@ -14,7 +14,7 @@ title: Yusuke Ebihara
 - ORCID: [0000-0002-2977-7361](https://orcid.org/0000-0002-2977-7361)
 - Like
   - Editor: vim ([.vim](https://github.com/ebiyuu1121/dotfiles/tree/master/vim))
-  - Game: Mario Kart 8DX / maimai / Mahjong / minecraft
+  - Game: [Mario Kart 8DX](https://mktools.ebiyuu.com/player/ebi/) / maimai / Mahjong / minecraft
 
 ## Experiences
 
@@ -26,6 +26,7 @@ title: Yusuke Ebihara
 
 ## Works
 
+- [2023/03] [全自動マリオカートTA記録システム](https://mktools.ebiyuu.com/) (Wep app / image processing)
 - [2023/01] [コトバーテル -オンライン-](https://kotobaateru.online/) (Web app)
 - [2022/02] [全自動筋トレ記録システム「Muscle Supporter」](https://muscle-supporter.com/) (iOS App / Machine learning)
 - [2020/11] [東大CAST駒場祭特設サイト](https://ut-cast.net/komafes2020/) (Web site)
