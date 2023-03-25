@@ -14,7 +14,7 @@ title: Yusuke Ebihara
 - ORCID: [0000-0002-2977-7361](https://orcid.org/0000-0002-2977-7361)
 - Like
   - Editor: vim ([.vim](https://github.com/ebiyuu1121/dotfiles/tree/master/vim))
-  - Game: [Mario Kart 8DX](https://mktools.ebiyuu.com/player/ebi/) / maimai / Mahjong / minecraft
+  - Game: [Mario Kart 8DX](https://mktools.ebiyuu.com/player/ebi/) / [Spla3](https://stat.ink/@ebiyu/spl3) / maimai / Mahjong / minecraft
 
 ## Experiences
 
