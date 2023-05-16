@@ -3,8 +3,12 @@ const markdownItAttrs = require('markdown-it-attrs');
 const markdownItLinkAttributes = require('markdown-it-link-attributes');
 const faviconPlugin = require("eleventy-favicon");
 const { format: formatDate } = require('date-fns');
+const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 
 module.exports = function (eleventyConfig) {
+  // syntax highlighting
+  eleventyConfig.addPlugin(syntaxHighlight);
+
   // favicon
   eleventyConfig.addPlugin(faviconPlugin, { destination: './dist' });
 
