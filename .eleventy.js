@@ -43,6 +43,14 @@ module.exports = function (eleventyConfig) {
     })
   eleventyConfig.setLibrary("md", markdownLib)
 
+  const markdownLibNoBlank = markdownIt(mdOptions)
+    .use(markdownItAttrs).disable("code")
+
+  eleventyConfig.addPairedShortcode(
+    "markdownNoBlank",
+    content => `<div class="md-block">${markdownLibNoBlank.render(content)}</div>`
+  );
+
   // options
   return {
     dir: {

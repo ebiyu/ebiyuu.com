@@ -11,6 +11,10 @@ a:hover {
   text-decoration: underline;
 }
 
+img {
+  max-width: 100%;
+}
+
 main {
   padding: 12px 12px;
 }
@@ -66,4 +70,13 @@ blockquote {
 .BlogList__date {
   color: gray;
   font-size: 0.9em;
+}
+
+.Layout__wrap { 
+  display: flex;
+}
+
+.Layout__nav {
+  width: 100px;
+  padding: 12px 12px;
 }
