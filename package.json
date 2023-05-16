@@ -5,7 +5,7 @@
   "author": "Ebihara Yusuke <me@ebiyuu.com>",
   "license": "MIT",
   "dependencies": {
-    "@11ty/eleventy": "^1.0.1",
+    "@11ty/eleventy": "^2.0.1",
     "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
     "date-fns": "^2.28.0",
     "eleventy-favicon": "^1.1.3",
