@@ -78,6 +78,17 @@ gitリポジトリは `~/.afx/github.com` 以下に展開されていた。
 
 ![afx-nvim2](../img/afx-nvim2.png)
 
+## パッケージの更新
+
+NeovimのHEADを追いかけ続けるために、 `afx update` で最新にアップデートしたい。
+しかし、 `afx update` を実行しても `git fetch` をしている様子はなかった。
+
+ソースを確認したところ、TOODコメントが記載されていた。
+今後の実装に期待、または自分で実装をしたい。
+
+![afx-update-not-supported](../img/afx-update-not-supported.png)
+
+
 ## まとめ
 
 ビルドの自動化ができて便利そうだった。
