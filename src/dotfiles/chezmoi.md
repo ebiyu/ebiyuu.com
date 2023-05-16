@@ -90,15 +90,41 @@ auto commitだけ設定している。
 chezmoi自体の設定ファイルは特殊な方法で管理する。
 `~/.local/share/chezmoi/.chezmoi.toml.tmpl` に配置し、 `chezmoi apply` を実行する。
 
-## 普段の運用
+これで、 `chezmoi edit` を実行すると自動的にcommit/pushが行われるため、反映を忘れることがなくなる。
+コミットログを綺麗に保ちたいなどの要求がなければ設定しておいてよさそう。
 
-```sh
-chezmoi update # githubからクローンしてくる
-```
+## 普段の運用
 
 chezmoiでホームディレクトリに配置されるのはシンボリックリンクではなく実ファイルであるため、
 ホームディレクトリの `.zshrc` を編集してもgitリポジトリには反映されない。
 
-- `re-add`
+以下のコマンドを用いることで、元ファイルをエディタで編集→反映→コミット(auto commitが有効の場合のみ) を実行できる。
 
-WIP
+```sh
+chezmoi edit ~/.zshrc
+```
+
+また、直接 `~/.zshrc` などを編集した場合、以下のコマンドで逆に反映することができる。
+
+```sh
+chezmoi add ~/.zshrc
+```
+
+以下のコマンドでまとめて反映できる。
+
+```sh
+chezmoi re-add
+```
+
+一般的には編集して動作確認してからコミットすることが多いと思うので、
+
+編集→動作確認→ `chezmoi re-add` の手順を踏むことが多い。
+
+[テンプレート](https://www.chezmoi.io/user-guide/templating/)などを使う場合はこの運用はできない気がする。テンプレート機能を使い始めたら考える。
+
+
+## References
+
+- [chezmoi \- chezmoi](https://www.chezmoi.io/)
+- [既存の dotfiles を chezmoi で管理する](https://zenn.dev/johnmanjiro13/articles/d14825f4ef3184)
+
