@@ -1,5 +1,5 @@
 ---
-layout: site.njk
+layout: simple.njk
 title: Yusuke Ebihara
 ---
 
