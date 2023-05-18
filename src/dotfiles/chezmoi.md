@@ -122,6 +122,90 @@ chezmoi re-add
 
 [テンプレート](https://www.chezmoi.io/user-guide/templating/)などを使う場合はこの運用はできない気がする。テンプレート機能を使い始めたら考える。
 
+## afxのインストール
+
+`chezmoi apply` を実行した際に、 [b4b4r07/afx: 📦 Package manager for CLI](https://github.com/b4b4r07/afx/) をインストールするようにする。
+"afx" はcli管理ツールで、現在はneovimをビルドする設定を入れているだけだが、いろいろ設定することができる。
+
+これはchezmoiの[スクリプト機能](https://www.chezmoi.io/user-guide/use-scripts-to-perform-actions/)によって実現することが可能である。
+`~/.local/share/chezomi` 以下に追加した、特定の文字列で初まるシェルを、 `chezmoi apply` のタイミングで実行してくれる。
+
+以下の2ファイルを追加する。
+
+`run_once_install_afx.sh` : 一回だけ実行
+
+```sh
+#!/bin/bash
+
+set -eu
+
+echo "Installing afx..."
+curl -sSL https://raw.githubusercontent.com/b4b4r07/afx/HEAD/hack/install | bash
+```
+
+`run_after_afx.sh` : `chezmoi apply` するたびに、「dotfilesの配置が終わったタイミングで」実行
+
+```sh
+#!/bin/bash
+
+set -eu
+
+echo "Installing with afx..."
+
+afx install
+afx update
+afx uninstall
+```
+
+これで、dotfilesの配置と同様にソフトのインストールもできるようになった。
+
+### `prompt` の活用
+
+ただ、サーバー等、「dotfilesを配置したいけどneovimなどインストールするまでではない」ということもある。
+そこで、 [promptBoolOnce](https://www.chezmoi.io/reference/templates/init-functions/promptBoolOnce/)を活用し、`chezmoi init` した際に選択できるようにした。
+
+`.chezmoi.toml.tmpl` を書きかえる。
+
+{% raw %}
+```diff-toml
+ [git]
+     autoCommit = true
+     autoPush = true
++[scriptEnv]
++    {{ if promptBoolOnce . "fullInstall" "Do you want to perform full install?" }}CHEZMOI_FULL_INSTALL = "1"{{ end }}
+```
+{% endraw %}
+
+これで `chezmoi init` を実行するとプロンプトが表示され、回答が `~/.config/chezmoi/chezmoi.toml` に記入される。
+
+![chezmoi-init-bool](../img/chezmoi-init-bool.png)
+
+これで、スクリプトの実行時に `CHEZMOI_FULL_INSTALL` がセットされるようになるので、`run_once_install_afx.sh` `run_after_afx.sh` を書き換える。
+
+```diff-sh
+ #!/bin/bash
+ 
+ set -eu
+ 
++if [[ ! -z "${CHEZMOI_FULL_INSTALL:-}" ]]; then
+     echo "Installing afx..."
+     curl -sSL https://raw.githubusercontent.com/b4b4r07/afx/HEAD/hack/install | bash
++fi
+```
+
+```diff-sh
+ #!/bin/bash
+
+ set -eu
+
++if [[ ! -z "${CHEZMOI_FULL_INSTALL:-}" ]]; then
+   echo "Installing with afx..."
+ 
+   afx install
+   afx update
+   afx uninstall
++fi
+```
 
 ## References
 
