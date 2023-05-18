@@ -10,6 +10,29 @@
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1962102227435548"
      crossorigin="anonymous"></script>
     {% favicon 'src/icon.png' %}
+    <style>
+      .token.deleted {
+        background-color: hsl(350deg 100% 88% / 47%);
+      }
+      .token.inserted {
+        background-color: hsl(120deg 73% 75% / 35%);
+      }
+
+      /* Make the + and - characters unselectable for copy/paste */
+      .token.prefix.unchanged,
+      .token.prefix.inserted,
+      .token.prefix.deleted {
+        -webkit-user-select: none;
+        user-select: none;
+      }
+
+      /* Optional: full-width background color */
+      .token.inserted:not(.prefix),
+      .token.deleted:not(.prefix) {
+        display: block;
+      }
+    </style>
+
   </head>
   <body>
     <div class="Header">
