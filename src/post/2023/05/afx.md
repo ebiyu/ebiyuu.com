@@ -21,13 +21,13 @@ curl -sL https://raw.githubusercontent.com/b4b4r07/afx/HEAD/hack/install | bash
 
 ```
 
-実行したところ、インストールスクリプトが上手く動かなかったため、PRを出しておいた。
+実行したところ、インストールスクリプトが上手く動かなかったため、PRを出しておいた。(2023/5/18 追記: マージされた)
 
 - [fix: fix install script by ebiyuu1121 · Pull Request \#59 · b4b4r07/afx](https://github.com/b4b4r07/afx/pull/59)
 
 また、コマンドを実行したところ設定ディレクトリが存在せず、エラーとなったため、 `~/.config/afx` を作成した。
 
-なお、エラーになるのは不自然だと思ったので、こちらもPull-requestを作成しておいた。
+なお、エラーになるのは不自然だと思ったので、こちらもPull-requestを作成しておいた。(2023/5/18 追記: マージされた)
 
 - [Create ~/\.config/afx if not exist by ebiyuu1121 · Pull Request \#60 · b4b4r07/afx](https://github.com/b4b4r07/afx/pull/60)
 
@@ -39,6 +39,11 @@ type afx > /dev/null 2>&1 && eval "$(afx init)"
 type afx > /dev/null 2>&1 && eval "$(afx completion zsh)"
 ```
 
+2023/5/18 追記: 上記の設定では補完が出ないことが判明した。上の2行の下に[以下を追加](https://github.com/ebiyuu1121/dotfiles/commit/01f6dcebc872d86978653ad839e4daf7f72d0e57)すれば無事補完が効いた(バグかも)
+
+```sh
+type afx > /dev/null 2>&1 && compdef _afx afx
+```
 
 
 ## neovimをビルドしてみる
