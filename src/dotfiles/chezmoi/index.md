@@ -178,7 +178,7 @@ afx uninstall
 
 これで `chezmoi init` を実行するとプロンプトが表示され、回答が `~/.config/chezmoi/chezmoi.toml` に記入される。
 
-![chezmoi-init-bool](../img/chezmoi-init-bool.png)
+![chezmoi-init-bool](img/chezmoi-init-bool.png)
 
 これで、スクリプトの実行時に `CHEZMOI_FULL_INSTALL` がセットされるようになるので、`run_once_install_afx.sh` `run_after_afx.sh` を書き換える。
 

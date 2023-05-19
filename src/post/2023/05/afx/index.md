@@ -75,13 +75,13 @@ github:
 この状態で `afx install` を実行し、ビルドに成功した。
 
 
-![afx-nvim](../img/afx-nvim.png)
+![afx-nvim](img/afx-nvim.png)
 
 gitリポジトリは `~/.afx/github.com` 以下に展開されていた。
 このうち、yamlの `link` で指定したバイナリが `~/bin` へとリンクされていた。
 
 
-![afx-nvim2](../img/afx-nvim2.png)
+![afx-nvim2](img/afx-nvim2.png)
 
 ## パッケージの更新
 
@@ -91,7 +91,7 @@ NeovimのHEADを追いかけ続けるために、 `afx update` で最新にア�
 ソースを確認したところ、TOODコメントが記載されていた。
 今後の実装に期待、または自分で実装をしたい。
 
-![afx-update-not-supported](../img/afx-update-not-supported.png)
+![afx-update-not-supported](img/afx-update-not-supported.png)
 
 
 ## まとめ
