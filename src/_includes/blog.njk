@@ -6,10 +6,12 @@ layout: site.njk
   <h1 class="BlogTitle">{{ title }}</h1>
   <div class="BlogDate">{{ date | formatDate }}</div>
 
+  {% if content | toc %}
   <div class="BlogToc">
     <h3>目次</h3>
     {{ content | toc | safe }}
   </div>
+  {% endif %}
 
   <div class="md-content">
     {{ content | safe}}

@@ -12,10 +12,12 @@ layout: site.njk
     <main class="Layout__main">
 
       <h1>{{ title }}</h1>
+      {% if content | toc %}
       <div class="BlogToc">
         <h3>目次</h3>
         {{ content | toc | safe }}
       </div>
+      {% endif %}
       <div class="md-content">
         {{ content | safe }}
       </div>
