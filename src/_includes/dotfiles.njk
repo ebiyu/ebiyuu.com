@@ -9,12 +9,16 @@ layout: site.njk
       {%- include "dotfiles/toc.md" -%}
       {% endmarkdownNoBlank %}
     </div>
-    <main>
+    <main class="Layout__main">
 
       <h1>{{ title }}</h1>
-      {{ content | toc | safe }}
-      <hr>
-      {{ content | safe }}
+      <div class="BlogToc">
+        <h3>目次</h3>
+        {{ content | toc | safe }}
+      </div>
+      <div class="md-content">
+        {{ content | safe }}
+      </div>
     </main>
   </div>
 </main>

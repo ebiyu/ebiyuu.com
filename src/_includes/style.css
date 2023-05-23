@@ -1,6 +1,12 @@
 * {
   font-family: sans-serif;
 }
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 
 a {
   color: blue;
@@ -61,10 +67,15 @@ blockquote {
   justify-content: space-between;
 }
 
+.BlogTitle {
+  text-align: center;
+  margin-bottom: 0.2em;
+}
 .BlogDate {
-  font-size: 0.9em;
+  font-size: 1em;
+  margin-bottom: 0.2em;
   color: gray;
-  text-align: right;
+  text-align: center;
 }
 
 .BlogList__date {
@@ -77,11 +88,47 @@ blockquote {
 }
 
 .Layout__nav {
-  width: 100px;
+  width: 150px;
   padding: 12px 12px;
   border-right: #ccc 1px solid;
 }
 
 .Layout__nav ul {
   padding-inline-start: 10px;
+}
+
+.Layout__main {
+  flex: 1;
+  overflow-x: hidden;
+}
+
+
+.md-content h2 {
+  border-left: #0070c0 solid .3em;
+  padding: 5px;
+  padding-left: 0.5em;
+  background-color: #C2E6FF;
+}
+
+
+
+.md-content h3 {
+  border-bottom: #0070c0 solid .2em;
+  padding: 5px;
+}
+
+.BlogToc {
+  display: inline-block;
+  /* min-width: 500px; */
+  max-width: 100%;
+  width: 400px;
+  padding: 20px;
+  border: #0070c0 dashed 2px;
+  border-radius: 10px;
+  background-color: #E5F4FF;
+}
+
+.BlogToc > h3 {
+  margin-top: 0;
+  text-align: center;
 }

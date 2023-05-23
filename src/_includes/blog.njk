@@ -3,13 +3,15 @@ layout: site.njk
 ---
 
 <main>
-  <h1>{{ title }}</h1>
+  <h1 class="BlogTitle">{{ title }}</h1>
   <div class="BlogDate">{{ date | formatDate }}</div>
 
-  {{ content | toc | safe }}
-  <hr>
+  <div class="BlogToc">
+    <h3>目次</h3>
+    {{ content | toc | safe }}
+  </div>
 
-  <div>
+  <div class="md-content">
     {{ content | safe}}
   </div>
 </main>
