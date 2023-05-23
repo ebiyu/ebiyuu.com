@@ -5,6 +5,10 @@ layout: site.njk
 <main>
   <h1>{{ title }}</h1>
   <div class="BlogDate">{{ date | formatDate }}</div>
+
+  {{ content | toc | safe }}
+  <hr>
+
   <div>
     {{ content | safe}}
   </div>

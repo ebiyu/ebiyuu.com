@@ -3,8 +3,6 @@ layout: dotfiles.njk
 title: wezterm
 ---
 
-# Wezterm
-
 [Wezterm](https://wezfurlong.org/wezterm/) はターミナルエミュレータです。
 
 うれしい点としては

@@ -1,10 +1,8 @@
 ---
 layout: dotfiles.njk
-title: dotfiles
+title: chezmoi
 date: 2023-05-16
 ---
-
-# chezmoi
 
 zshrc, .vimrcなどのファイルをgitリポジトリにおいて管理しているが、
 今までは[自作のシェルスクリプト](https://github.com/ebiyuu1121/dotfiles/blob/c75a9cb41ef334313c5bdaa6a438badf3db84f23/bin/dotfiles)を置いて管理していた。

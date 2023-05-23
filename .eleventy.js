@@ -1,9 +1,11 @@
 const markdownIt = require('markdown-it');
+const markdownItAnchor = require('markdown-it-anchor');
 const markdownItAttrs = require('markdown-it-attrs');
 const markdownItLinkAttributes = require('markdown-it-link-attributes');
 const faviconPlugin = require("eleventy-favicon");
 const { format: formatDate } = require('date-fns');
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
+const pluginTOC = require('eleventy-plugin-toc')
 
 module.exports = function (eleventyConfig) {
   // syntax highlighting
@@ -39,6 +41,7 @@ module.exports = function (eleventyConfig) {
   }
   const markdownLib = markdownIt(mdOptions)
     .use(markdownItAttrs).disable("code")
+    .use(markdownItAnchor)
     .use(markdownItLinkAttributes, {
       attrs: {
         target: "_blank",
@@ -54,6 +57,8 @@ module.exports = function (eleventyConfig) {
     "markdownNoBlank",
     content => `<div class="md-block">${markdownLibNoBlank.render(content)}</div>`
   );
+
+  eleventyConfig.addPlugin(pluginTOC);
 
   // options
   return {

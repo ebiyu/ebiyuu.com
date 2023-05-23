@@ -10,6 +10,10 @@ layout: site.njk
       {% endmarkdownNoBlank %}
     </div>
     <main>
+
+      <h1>{{ title }}</h1>
+      {{ content | toc | safe }}
+      <hr>
       {{ content | safe }}
     </main>
   </div>
