@@ -3,18 +3,23 @@ layout: site.njk
 title: Blog
 ---
 
+<main>
+
 <h1>Blog</h1>
 
 <p>
   技術系記事から関係ないことまで、いろいろ書くブログ。
 </p>
 
+<ul class="BlogList">
 {%- for post in collections.posts -%}
-  <li>
+  <li class="BlogList__li">
     <a href="{{post.url}}">{{ post.data.title }}</a>
     <span class="BlogList__date">
       {{ post.data.date | formatDate }}
     </span>
   </li>
 {%- endfor -%}
+</ul>
 
+</main>

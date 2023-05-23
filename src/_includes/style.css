@@ -78,6 +78,19 @@ blockquote {
   text-align: center;
 }
 
+.BlogList {
+  padding: 0;
+  list-style: none;
+}
+
+.BlogList__li {
+  padding: 7px;
+}
+
+.BlogList__li + .BlogList__li {
+  border-top: #ccc 1px solid;
+}
+
 .BlogList__date {
   color: gray;
   font-size: 0.9em;
