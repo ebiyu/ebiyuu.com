@@ -2,6 +2,9 @@
 layout: blog
 title: Dockerでminecraftを動かしてみる
 date: 2023-05-21
+tags:
+  - minecraft
+  - docker
 ---
 
 minecraftサーバーをdockerで立ててみる。

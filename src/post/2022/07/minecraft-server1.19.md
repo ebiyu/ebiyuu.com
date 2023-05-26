@@ -2,6 +2,8 @@
 layout: blog
 title: AWSでminecraftサーバーを立てる (1.19)
 date: 2022-07-17
+tags:
+  - minecraft
 ---
 
 AWS EC2でminecraftのサーバーを構築した。

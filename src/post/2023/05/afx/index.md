@@ -2,6 +2,8 @@
 layout: blog
 title: cliマネージャ "afx" を試す
 date: 2023-05-16
+tags: 
+  - dotfiles
 ---
 
 

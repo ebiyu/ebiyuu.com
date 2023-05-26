@@ -2,6 +2,10 @@
 layout: blog
 title: ECSでマイクラサーバーを立ててみる。
 date: 2023-05-22
+tags:
+  - minecraft
+  - docker
+  - aws
 ---
 
 「[Dockerでminecraftを動かしてみる](/post/2023/05/minecraft-docker/)」 の続き。
