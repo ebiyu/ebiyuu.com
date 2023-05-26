@@ -1,22 +1,22 @@
 ---
+pagination:
+    data: allTags
+    size: 1
+    alias: tag
+permalink: "tag/{{ tag }}/"
 layout: site.njk
-title: Blog
 ---
 
 <main>
 
-<h1>Blog</h1>
-
-<p>
-  技術系記事から関係ないことまで、いろいろ書くブログ。
-</p>
+<h1>Tag: {{ tag }}</h1>
 
 <ul class="BlogList">
-{%- for post in collections.posts -%}
+{%- for post in collections[tag] | reverse -%}
   <li class="BlogList__li">
     <a href="{{post.url}}">{{ post.data.title }}</a>
     {% for tag in post.data.tags %}
-    <a class="Tag" href="/tag/{{ tag }}">
+      <a class="Tag" href="/tag/{{ tag }}">
         {{ tag }}
       </a>
     {% endfor %}

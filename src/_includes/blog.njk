@@ -6,6 +6,14 @@ layout: site.njk
   <h1 class="BlogTitle">{{ title }}</h1>
   <div class="BlogDate">{{ date | formatDate }}</div>
 
+  <div class="TagList">
+  {% for tag in tags %}
+    <a class="Tag" href="/tag/{{ tag }}">
+      {{ tag }}
+    </a>
+  {% endfor %}
+  </div>
+
   {% if content | toc %}
   <div class="BlogToc">
     <h3>目次</h3>

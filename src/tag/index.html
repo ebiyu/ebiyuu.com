@@ -1,0 +1,9 @@
+---
+layout: simple.njk
+---
+
+<h1>タグ</h1>
+
+{%- for tag in allTags | reverse -%}
+  <a href="/tag/{{ tag }}/" class="Tag">{{ tag }}</a>
+{%- endfor -%}

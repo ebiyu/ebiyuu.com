@@ -145,3 +145,28 @@ blockquote {
   margin-top: 0;
   text-align: center;
 }
+
+.TagList {
+  text-align: center;
+}
+
+.Tag {
+  border: #0070c0 solid 2px;
+  background-color: #E5F4FF;
+  color: #0070c0;
+  /* background-color: #0070c0; */
+  /* color: white; */
+  padding: 3px 12px;
+  /* padding-left: 10px; */
+  /* border-radius: 20px 0 0 20px; */
+  border-radius: 20px;
+  display: inline-block;
+  margin: 5px 3px;
+}
+
+.Tag:hover {
+  background-color: #0070c0;
+  color: white;
+  text-decoration: none;
+}
+
