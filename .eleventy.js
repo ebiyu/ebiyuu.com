@@ -60,6 +60,18 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addPlugin(pluginTOC);
 
+  // When `eleventyExcludeFromCollections` is true, the file is not included in any collections
+	eleventyConfig.addGlobalData("eleventyComputed.eleventyExcludeFromCollections", function() {
+		return (data) => {
+			// Always exclude from non-watch/serve builds
+			if (data.draft) {
+				return true;
+			}
+
+			return data.eleventyExcludeFromCollections;
+		}
+	});
+
   // options
   return {
     dir: {
