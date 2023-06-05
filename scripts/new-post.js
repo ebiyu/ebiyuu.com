@@ -11,7 +11,7 @@ const slug = process.argv[2];
 const year = new Date().getFullYear();
 const month = ("0" + (new Date().getMonth() + 1)).slice(-2);
 const day = ("0" + new Date().getDate()).slice(-2);
-console.log(`Creating ${year}/${month}/${slug}.md`);
+console.log(`Creating ${year}/${month}/${slug}/index.md`);
 
 // dir
 const dir = `src/post/${year}/${month}/${slug}`;
