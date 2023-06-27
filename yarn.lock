@@ -743,6 +743,10 @@ eleventy-favicon@^1.1.3:
     sharp "^0.30.4"
     to-ico "^1.1.5"
 
+eleventy-plugin-backlinks@ebiyuu1121/eleventy-plugin-backlinks#markdown:
+  version "0.2.1"
+  resolved "https://codeload.github.com/ebiyuu1121/eleventy-plugin-backlinks/tar.gz/8cf4366d458ffab115ace5857ab07c52d8ab1cd0"
+
 eleventy-plugin-toc@^1.1.5:
   version "1.1.5"
   resolved "https://registry.yarnpkg.com/eleventy-plugin-toc/-/eleventy-plugin-toc-1.1.5.tgz#68fff006ca000662303aa29a2191f327c5b38633"

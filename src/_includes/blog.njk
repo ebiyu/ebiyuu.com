@@ -23,5 +23,19 @@ layout: site.njk
 
   <div class="md-content">
     {{ content | safe}}
+
+    {% if backlinks | length %}
+    <h2>バックリンク</h2>
+    <ul>
+      {% for backlink in backlinks %}
+        <li>
+          <a href="{{ backlink.url }}">
+            {{ backlink.title }}
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+
   </div>
 </main>

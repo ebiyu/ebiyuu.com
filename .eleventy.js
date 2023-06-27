@@ -6,6 +6,7 @@ const faviconPlugin = require("eleventy-favicon");
 const { format: formatDate } = require('date-fns');
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const pluginTOC = require('eleventy-plugin-toc')
+const eleventyBacklinks = require("eleventy-plugin-backlinks");
 
 module.exports = function (eleventyConfig) {
   // syntax highlighting
@@ -71,6 +72,12 @@ module.exports = function (eleventyConfig) {
 			return data.eleventyExcludeFromCollections;
 		}
 	});
+
+  // backlink
+  eleventyConfig.addPlugin(eleventyBacklinks, {
+		folder: 'post'
+  });
+
 
   // options
   return {
