@@ -22,6 +22,8 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/**/*.png");
   eleventyConfig.addPassthroughCopy("src/**/*.gif");
 
+  eleventyConfig.addPassthroughCopy("src/**/*.txt");
+
   // blog
   eleventyConfig.addLayoutAlias("blog", "blog.njk");
   eleventyConfig.addCollection("posts", function(collectionApi) {
