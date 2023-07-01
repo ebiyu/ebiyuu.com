@@ -6,7 +6,7 @@ title: Yusuke Ebihara
 ## Profile
 
 - Yusuke Ebihara (海老原祐輔)
-- M1 Student (electronics, The University of Tokyo) / Programmer (web, mobile)
+- M1 Student (electronics, The University of Tokyo) / Programmer (web, embedded)
 - Email: `yusuke+ebihara.me` (Please replace + with @)
 - Twitter: [@ebiyuu1121_](https://twitter.com/ebiyuu1121_)
 - Facebook: [Yusuke Ebihara](https://www.facebook.com/yuusuke.ebihara.7/)
@@ -18,8 +18,10 @@ title: Yusuke Ebihara
 
 ## Experiences
 
+- [2023/7-] [2023年度未踏アドバンスト事業](https://www.ipa.go.jp/jinzai/mitou/advanced/2023/gaiyou_fj-1.html)
 - [2022/04-] 東京大学大学院工学系研究科 [電気系工学専攻](https://www.eeis.t.u-tokyo.ac.jp)
   - [2022/04-] 東京大学大学院工学系研究科 [染谷研究室](http://www.ntech.t.u-tokyo.ac.jp) (Organic / flexible electronics)
+- [2021/6-2022/3] [2021年度未踏IT人材発掘・育成事業](https://www.ipa.go.jp/jinzai/mitou/2021/gaiyou_sd-3.html)
 - [2020/04-2022/03] 東京大学工学部 [電気電子工学科](https://www.ee.t.u-tokyo.ac.jp/)
   - [2021/04-2022/03] 東京大学工学部 [三田研究室](https://www.if.t.u-tokyo.ac.jp) (MEMS)
 - [2018/04-2020/03] 東京大学教養学部理科一類
@@ -39,6 +41,7 @@ title: Yusuke Ebihara
 
 ## Projects
 
+- [2023年度未踏アドバンスト事業](https://www.ipa.go.jp/jinzai/mitou/advanced/2023/gaiyou_fj-1.html) (イノベータ) [2023-]
 - [2021年度未踏IT人材発掘・育成事業](https://www.ipa.go.jp/jinzai/mitou/2021/gaiyou_sd-3.html) (クリエータ) [2021-2022]
 - [東大学内チェックインアプリ「MOCHA」](https://mocha.t.u-tokyo.ac.jp) (PR担当・ウェブ担当) [2020-]
 - [2021年度工学部研究成果発表会](https://2021.eeic.jp/) (企画統括・VTuberモデリング・ウェブ開発担当) [2021]
@@ -58,8 +61,6 @@ title: Yusuke Ebihara
 - Electronics
   - Circuit design
   - LSI design / verilog
-- Movie editing
-- Design (learning)
 
 ## Awards
 
