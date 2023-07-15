@@ -2,6 +2,7 @@
 layout: site.njk
 ---
 
+
 <main>
   <h1 class="BlogTitle">{{ title }}</h1>
   <div class="BlogDate">{{ date | formatDate }}</div>
@@ -36,6 +37,16 @@ layout: site.njk
       {% endfor %}
     </ul>
     {% endif %}
+
+    <h2>コメント</h2>
+    <script src="https://utteranc.es/client.js"
+            repo="ebiyuu1121/ebiyuu.com-comment"
+            issue-term="pathname"
+            label="comment"
+            theme="github-light"
+            crossorigin="anonymous"
+            async>
+    </script>
 
   </div>
 </main>
