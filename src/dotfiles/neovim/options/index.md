@@ -140,8 +140,10 @@ set list
 set showmatch
 set matchtime=1
 
-nnoremap Y y$ " Y の動作を自然にする neovimだとデフォルトで入っている
-nnoremap x "_x " レジスタを汚染しないようにする
+" Y の動作を自然にする neovimだとデフォルトで入っている
+nnoremap Y y$
+" レジスタを汚染しないようにする
+nnoremap x "_x
 
 nnoremap <space> <nop>
 
