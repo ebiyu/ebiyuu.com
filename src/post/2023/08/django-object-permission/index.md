@@ -29,7 +29,7 @@ class MyDetail(RetrieveAPIView):
 
 調べてみると、そもそも `has_object_permission` が呼び出されていない。
 
-## 解決策
+## 原因
 
 調べてみると、 `get_object` をoverrideした場合は  `has_object_permission` は呼び出されない仕様のようだ。
 [Django Rest Frameworkのドキュメント](https://www.django-rest-framework.org/api-guide/permissions/) にも以下のような記述がある。
