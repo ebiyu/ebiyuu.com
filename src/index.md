@@ -6,14 +6,14 @@ title: Yusuke Ebihara
 ## Profile
 
 - Yusuke Ebihara (海老原祐輔)
-- M1 Student (electronics, The University of Tokyo) / Programmer (web, embedded)
+- M2 Student (electronics, The University of Tokyo) / Programmer (web, embedded)
 - Email: `yusuke+ebihara.me` (Please replace + with @)
-- Twitter: [@ebiyuu1121_](https://twitter.com/ebiyuu1121_)
+- X (Twitter): [@ebiyuu1121_](https://twitter.com/ebiyuu1121_)
 - Facebook: [Yusuke Ebihara](https://www.facebook.com/yuusuke.ebihara.7/)
-- Github: [ebiyuu1121](https://github.com/ebiyuu1121)
+- Github: [@ebiyu](https://github.com/ebiyu)
 - ORCID: [0000-0002-2977-7361](https://orcid.org/0000-0002-2977-7361)
 - Like
-  - Editor: vim ([.vim](https://github.com/ebiyuu1121/dotfiles/tree/master/vim))
+  - Editor: neovim ([.config/nvim](https://github.com/ebiyu/dotfiles/tree/master/dot_config/nvim))
   - Game: [Mario Kart 8DX](https://mktools.ebiyuu.com/player/ebi/) / [Spla3](https://stat.ink/@ebiyu/spl3) / maimai / Mahjong / minecraft
 
 ## Experiences
@@ -37,12 +37,12 @@ title: Yusuke Ebihara
   - [ミニゲーム「階段を作り出せ！」](https://ut-cast.net/mayfes2020/minigame/tsumiki/) (Unity project)
   - [進捗企画「みんなで実験！円周率を求めよう！」](https://ut-cast.net/mayfes2020/data-collecting/) (Web app)
 - [2020/06] [自作問題共有サービス「ポロロッカ」](https://pororocca.com/) (Web app)
-- [Ebi's web lab](https://lab.ebiyuu.com/) (Web app) ([source](https://github.com/ebiyuu1121/web-lab))
+- [Ebi's web lab](https://lab.ebiyuu.com/) (Web app) ([source](https://github.com/ebiyu/web-lab))
 
 ## Projects
 
 - [2023年度未踏アドバンスト事業](https://www.ipa.go.jp/jinzai/mitou/advanced/2023/gaiyou_fj-1.html) (イノベータ) [2023-]
-- [2021年度未踏IT人材発掘・育成事業](https://www.ipa.go.jp/jinzai/mitou/2021/gaiyou_sd-3.html) (クリエータ) [2021-2022]
+- [2021年度未踏IT人材発掘・育成事業](https://www.ipa.go.jp/jinzai/mitou/it/2021/gaiyou_sd-3.html) (クリエータ) [2021-2022]
 - [東大学内チェックインアプリ「MOCHA」](https://mocha.t.u-tokyo.ac.jp) (PR担当・ウェブ担当) [2020-]
 - [2021年度工学部研究成果発表会](https://2021.eeic.jp/) (企画統括・VTuberモデリング・ウェブ開発担当) [2021]
 - [Лироша Channel リローシャチャンネル](https://www.youtube.com/channel/UC5T-TP6eOGbX9DVXpLtevEA) (企画・動画編集) [2018-2019]
@@ -51,20 +51,21 @@ title: Yusuke Ebihara
 ## Skills
 
 - Programming
-  - Web frontend (HTML, CSS, JavaScript; Sass, Vue, Nuxt, React)
-  - Web backend (PHP, Go, SQL; Laravel, Django; Serverless)
-  - iOS app (Swift)
+  - Web frontend (HTML, CSS, JavaScript, TypeScript; Sass, Vue, Nuxt, React)
+  - Web backend (PHP, Go, Python, Node, SQL; Laravel, Django, Express; Serverless)
+  - Mobile app (Swift, Flutter)
   - Web cloud (AWS; EC2, S3, Lambda...)
   - Data analysis / machine learning (Python, R; neural network)
   - Embedded programing (Arduino)
   - Others (C, C++, Excel VBA, Unity)
 - Electronics
   - Circuit design
-  - LSI design / verilog
+  - FPGA design (verilog)
+  - LSI design
 
 ## Awards
 
-- [2021年度未踏IT人材発掘・育成事業スーパークリエータ](https://www.ipa.go.jp/jinzai/mitou/2021/20220527.html)  [2022]
+- [2021年度未踏IT人材発掘・育成事業スーパークリエータ](https://www.ipa.go.jp/jinzai/mitou/it/qv6pgp000000ie9y-att/000098511.pdf)  [2022]
 - [全国物理コンテスト 物理チャレンジ2017 銀賞・実験優秀賞](http://www.jpho.jp/2017schedule.html) [2017]
 
 ## Conference presentation
