@@ -21,7 +21,9 @@
   "scripts": {
     "dev:tailwind": "tailwindcss -i ./src/tailwind.css -o ./src/style.css --watch",
     "dev:11ty": "eleventy --serve",
-    "build": "eleventy",
+    "build:tailwind": "tailwindcss -i ./src/tailwind.css -o ./src/style.css",
+    "build:11ty": "eleventy",
+    "build": "yarn build:tailwind && yarn build:11ty",
     "dev": "npm-run-all -p dev:*",
     "new-post": "node scripts/new-post.js"
   }
