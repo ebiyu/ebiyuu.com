@@ -4,7 +4,9 @@
 html {
   box-sizing: border-box;
 }
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
@@ -25,7 +27,8 @@ main {
   padding: 12px 12px;
 }
 
-code, pre {
+code,
+pre {
   background-color: #eee;
 }
 
@@ -96,7 +99,7 @@ blockquote {
   font-size: 0.9em;
 }
 
-.Layout__wrap { 
+.Layout__wrap {
   display: flex;
 }
 
@@ -115,18 +118,15 @@ blockquote {
   overflow-x: hidden;
 }
 
-
 .md-content h2 {
-  border-left: #0070c0 solid .3em;
+  border-left: #0070c0 solid 0.3em;
   padding: 5px;
   padding-left: 0.5em;
-  background-color: #C2E6FF;
+  background-color: #c2e6ff;
 }
 
-
-
 .md-content h3 {
-  border-bottom: #0070c0 solid .2em;
+  border-bottom: #0070c0 solid 0.2em;
   padding: 5px;
 }
 
@@ -138,7 +138,7 @@ blockquote {
   padding: 20px;
   border: #0070c0 dashed 2px;
   border-radius: 10px;
-  background-color: #E5F4FF;
+  background-color: #e5f4ff;
 }
 
 .BlogToc > h3 {
@@ -152,7 +152,7 @@ blockquote {
 
 .Tag {
   border: #0070c0 solid 2px;
-  background-color: #E5F4FF;
+  background-color: #e5f4ff;
   color: #0070c0;
   /* background-color: #0070c0; */
   /* color: white; */
@@ -168,5 +168,17 @@ blockquote {
   background-color: #0070c0;
   color: white;
   text-decoration: none;
+}
+
+/* Top page */
+.Profile {
+  display: flex;
+  margin: 4px 0;
+}
+
+.ProfileNameEn {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 4px;
 }
 
