@@ -192,3 +192,6 @@ blockquote {
 .md-content ul {
   @apply list-disc pl-10;
 }
+.md-content p {
+  @apply my-2;
+}
