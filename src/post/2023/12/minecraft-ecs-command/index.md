@@ -2,6 +2,10 @@
 layout: blog
 title: ECSでマイクラサーバーを立てる サーバーコマンド実行編
 date: 2023-12-05
+tags:
+  - minecraft
+  - docker
+  - ecs
 ---
 
 「[ECSでマイクラサーバーを立てる データ永続化編](/post/2023/12/minecraft-ecs-volume/)」のつづき。
