@@ -164,9 +164,9 @@ vim.opt.termguicolors = true
 -- load base vimrc
 vim.api.nvim_exec([[source $HOME/.vimrc]], false)
 
+-- インクリメンタルサーチを有効化
 vim.o.inccommand = "split"
-vim.o.laststatus = 3
--- vim.o.cmdheight = 0 -- TODO: skkeleton with cmdheight=1
+-- ターミナルモードでも<esc>でノーマルモードに戻れるようにする
 vim.keymap.set('t', '<esc>', '<c-\\><c-n>')
 ```
 
