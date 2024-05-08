@@ -110,26 +110,6 @@ blockquote {
   overflow-x: hidden;
 }
 
-.md-content h2 {
-  font-size: 1.5em;
-  font-weight: bold;
-  border-left: #0070c0 solid 0.3em;
-  padding: 5px;
-  padding-left: 0.5em;
-  background-color: #c2e6ff;
-  margin-top: 1em;
-  margin-bottom: 0.5em;
-}
-
-.md-content h3 {
-  font-size: 1.3em;
-  font-weight: bold;
-  border-bottom: #0070c0 solid 0.2em;
-  padding: 5px;
-  margin-top: 1em;
-  margin-bottom: 0.5em;
-}
-
 .BlogToc {
   display: inline-block;
   /* min-width: 500px; */
@@ -183,15 +163,44 @@ blockquote {
 }
 
 /* markdown styles */
+.md-content h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+  border-left: #0070c0 solid 0.3em;
+  padding: 5px;
+  padding-left: 0.5em;
+  background-color: #c2e6ff;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+.md-content h3 {
+  font-size: 1.2em;
+  font-weight: bold;
+  border-bottom: #0070c0 solid 0.2em;
+  padding: 2px;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  @apply mx-4;
+}
+
+.md-content h2 + h3 {
+  margin-top: 0;
+}
+
 .md-content ol {
   @apply list-decimal pl-10;
 }
 .md-content ul {
   @apply list-disc pl-10;
 }
-.md-content ul {
-  @apply list-disc pl-10;
-}
 .md-content p {
   @apply my-2;
+}
+
+.md-content>*{
+  @apply mx-2 !important;
+}
+.md-content>h2{
+  @apply mx-0 !important;
 }

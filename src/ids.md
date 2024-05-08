@@ -3,11 +3,13 @@ layout: simple.njk
 title: IDs - Yusuke Ebihara
 ---
 
-# IDs
+<div class="md-content">
 
-- Twitter: [@ebiyuu1121_](https://twitter.com/ebiyuu1121_)
+## IDs
+
+- Twitter: [@ebiyu_](https://twitter.com/ebiyu_)
 - Facebook: [Yusuke Ebihara](https://www.facebook.com/yuusuke.ebihara.7/)
-- Github: [ebiyuu1121](https://github.com/ebiyuu1121)
+- Github: [ebiyu](https://github.com/ebiyu)
 - Instagram: [ebi__kun](https://instagram.com/ebi__kun/)
 - Qiita: [ebiyuu1121](https://qiita.com/ebiyuu1121)
 - ポロロッカ: [ebiyuu1121](https://pororocca.com/user/2/)
@@ -18,3 +20,7 @@ title: IDs - Yusuke Ebihara
   - maimai: `6099575966671`
   - じゃんたま: `100965388`
   - Board game arena: [ebiyuu1121](https://boardgamearena.com/player?id=85975310)
+- ssh keys: [keys.ebiyuu.com](https://keys.ebiyuu.com/)
+
+</div>
+

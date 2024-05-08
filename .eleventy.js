@@ -66,7 +66,12 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addPairedShortcode(
     "markdownNoBlank",
-    content => `<div class="md-block">${markdownLibNoBlank.render(content)}</div>`
+    content => `${markdownLibNoBlank.render(content)}`
+  );
+
+  eleventyConfig.addPairedShortcode(
+    "markdown",
+    content => `${markdownLib.render(content)}`
   );
 
   eleventyConfig.addPlugin(pluginTOC);
