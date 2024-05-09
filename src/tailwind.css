@@ -184,6 +184,18 @@ blockquote {
   @apply mx-4;
 }
 
+.md-content table {
+  border-collapse: collapse;
+}
+.md-content th {
+  border: 1px solid #ccc;
+  padding: 4px;
+}
+.md-content td {
+  border: 1px solid #ccc;
+  padding: 4px;
+}
+
 .md-content h2 + h3 {
   margin-top: 0;
 }
