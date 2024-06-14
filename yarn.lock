@@ -132,6 +132,13 @@
     "@babel/helper-validator-identifier" "^7.19.1"
     to-fast-properties "^2.0.0"
 
+"@hogashi/sb2md@^0.3.2":
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/@hogashi/sb2md/-/sb2md-0.3.2.tgz#d1ccd5f48870010587d1c71c0479e2daf71085cc"
+  integrity sha512-phvllPUBeI2uUmo1hyae1gaI5H35bqKDzYfs57s1cwHUQi6ahCWj8bKmaDEb6iuQnoIJemqaxCMPexXgU7/zzQ==
+  dependencies:
+    "@progfay/scrapbox-parser" "^8.0.0"
+
 "@iarna/toml@^2.2.5":
   version "2.2.5"
   resolved "https://registry.yarnpkg.com/@iarna/toml/-/toml-2.2.5.tgz#b32366c89b43c6f8cefbdefac778b9c828e3ba8c"
@@ -189,6 +196,11 @@
   dependencies:
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
+
+"@progfay/scrapbox-parser@^8.0.0":
+  version "8.1.0"
+  resolved "https://registry.yarnpkg.com/@progfay/scrapbox-parser/-/scrapbox-parser-8.1.0.tgz#fa2e6765742d30beb6f3b3601ae44bb950d71faa"
+  integrity sha512-egMX92PZp4vWwmUkEp+xBruQo7OU3qT80/AvWTUUH4UuPXsMewWu0XNckxGtxby3HEcJ2VObSp5IaUdLyBL4OA==
 
 "@sindresorhus/slugify@^1.1.2":
   version "1.1.2"
