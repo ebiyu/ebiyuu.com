@@ -42,7 +42,7 @@ sh -c "$(curl -fsLS get.chezmoi.io)" -- init --apply $GITHUB_USERNAME
 以下のコマンドで展開まで実行することができる。
 
 ```sh
-curl -sSL dot.ebiyuu.com | sh
+curl -sSL dot.ebiyuu.com | bash
 ```
 
 
