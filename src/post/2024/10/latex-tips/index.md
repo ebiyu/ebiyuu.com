@@ -2,6 +2,8 @@
 layout: blog
 title: LaTeX tips
 date: 2024-10-03
+tags:
+  - latex
 ---
 
 使い方わかってきたなーくらいの人向けのtips
