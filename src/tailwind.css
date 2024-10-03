@@ -65,6 +65,7 @@ blockquote {
 .BlogTitle {
   text-align: center;
   margin-bottom: 0.2em;
+  font-size: 2em;
 }
 .BlogDate {
   font-size: 1em;
@@ -114,11 +115,15 @@ blockquote {
   display: inline-block;
   /* min-width: 500px; */
   max-width: 100%;
-  width: 400px;
+  width: 600px;
   padding: 20px;
   border: #0070c0 dashed 2px;
   border-radius: 10px;
   background-color: #e5f4ff;
+}
+
+.BlogToc ol ol {
+  margin-left: 20px;
 }
 
 .BlogToc > h3 {
