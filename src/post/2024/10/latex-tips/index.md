@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: LaTeX tips
+title: LaTeX初心者にこそ教えたい、ちょっとLaTeX便利にするtips
 date: 2024-10-03
 tags:
   - latex
