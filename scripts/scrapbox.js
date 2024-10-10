@@ -30,7 +30,9 @@ async function main() {
   const images = getImages();
   console.log(images);
 
-  const postDir = createNewPost(slug, markdown);
+  const title = parsed.filter((block) => block.type === "title")[0]?.text;
+
+  const postDir = createNewPost(slug, markdown, title);
 
   // Fetch images
   // {"type":"image","raw":"[https://scrapbox.io/files/656efb402fbaab0024acd1b7.png]","src":"https://scrapbox.io/files/656efb402fbaab0024acd1b7.png","link":""}

@@ -1,6 +1,6 @@
 const fs = require("fs");
 
-function createNewPost(slug, markdown) {
+function createNewPost(slug, markdown, title) {
   // variables for file path
   const year = new Date().getFullYear();
   const month = ("0" + (new Date().getMonth() + 1)).slice(-2);
@@ -26,7 +26,7 @@ function createNewPost(slug, markdown) {
   // 書き込むデータ準備
   const data = `---
 layout: blog
-title: ${slug}
+title: ${title || slug}
 date: ${year}-${month}-${day}
 ---
 
