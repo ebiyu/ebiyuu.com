@@ -16,7 +16,7 @@ ADC側で一定周期でサンプリングを実施してくれるモードで�
 
 1. `analogContinous()` で初期化
 	- `sampling_freq_hz` サンプリング周波数、最終的に出力されるデータ
-	- `conversions_per_pin` 上のサンプリング周波数の1周期あたり、何回計測を行うか
+	- `conversions_per_pin` 上のサンプリング周波数の~~1周期あたり、何回計測を行うか~~何回分をまとめて1つのデータとするか
 2. `analogContinuousStart()` で連続読み出しを開始
 3. `analogContinuousRead()` で計測した値を読み出す
 	- 第二引数でタイムアウトを指定 (ms)
@@ -24,7 +24,9 @@ ADC側で一定周期でサンプリングを実施してくれるモードで�
 
 
 スケッチ例は以下のようになる。
- 以下の例では `sampling_freq_hz = 1000` 、  `conversions_per_pin = 20` なので、1kHzで`Serial.println` が呼ばれ、またそれぞれの計測では20回のサンプリングが実施されておりその平均が出力される。
+ 以下の例では `sampling_freq_hz = 1000` 、  `conversions_per_pin = 20` なので、 ~~1kHzで`Serial.println` が呼ばれ、またそれぞれの計測では20回のサンプリングが実施されておりその平均が出力される。~~ `Serial.println` は 1000/20 の 50 Hzで呼ばれる。
+
+7/24 追記 `conversions_per_pin` について誤解していたので修正
 
 ```cpp
 void setup() {
