@@ -2,9 +2,8 @@
 layout: blog
 title: title
 date: 2025-08-14
-draft: true
+draft: false
 tags:
-  - 
 ---
 [Google製の正規表現ライブラリ「RE2」をpythonで動かす](/post/2020/06/re2/) という記事を5年前に書いたが、いろいろと状況が変わっていたので最新の状況を記す。
 
