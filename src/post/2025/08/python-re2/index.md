@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: title
+title: Google製の正規表現ライブラリ「RE2」をpythonで動かす - 2025版
 date: 2025-08-14
 draft: false
 tags:
