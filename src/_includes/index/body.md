@@ -16,22 +16,26 @@
 
 ## Experiences
 
--   \[2023/11-\] [合同会社瞬景](https://shunkei.jp/) 共同設立
+- \[2025/04\] 東京大学大学院工学系研究科 [電気系工学専攻](https://www.eeis.t.u-tokyo.ac.jp)博士課程 入学
+    - 東京大学大学院工学系研究科 [染谷研究室](http://www.ntech.t.u-tokyo.ac.jp) (Flexible electronics)
+- \[2025/03\] 東京大学大学院工学系研究科 [電気系工学専攻](https://www.eeis.t.u-tokyo.ac.jp)修士課程 修了
+- \[2023/11\] [合同会社瞬景](https://shunkei.jp/) 共同設立
 -   \[2023/7-2024/3] [2023年度未踏アドバンスト事業 「テレプレゼンス技術のための低遅延IP映像伝送システムの開発」](https://www.ipa.go.jp/jinzai/mitou/advanced/2023/gaiyou_fj-1.html) 採択
--   \[2022/04-\] 東京大学大学院工学系研究科 [電気系工学専攻](https://www.eeis.t.u-tokyo.ac.jp)
-    -   \[2022/04-\] 東京大学大学院工学系研究科 [染谷研究室](http://www.ntech.t.u-tokyo.ac.jp) (Flexible electronics)
--   \[2021/6-2022/3\] [2021年度未踏IT人材発掘・育成事業「筋力トレーニングを全自動で記録するシステムとデバイスの開発」](https://www.ipa.go.jp/jinzai/mitou/2021/gaiyou_sd-3.html) 採択
+- \[2022/04\] 東京大学大学院工学系研究科 [電気系工学専攻](https://www.eeis.t.u-tokyo.ac.jp) 修士課程 入学
+    - 東京大学大学院工学系研究科 [染谷研究室](http://www.ntech.t.u-tokyo.ac.jp) (Flexible electronics)
+- \[2022/03\] 東京大学工学部 [電気電子工学科](https://www.ee.t.u-tokyo.ac.jp/) 卒業
+    -   \[2021/04-2022/03\] 東京大学工学部 [三田研究室](https://www.if.t.u-tokyo.ac.jp) (MEMS)
+- \[2021/6-2022/3\] [2021年度未踏IT人材発掘・育成事業「筋力トレーニングを全自動で記録するシステムとデバイスの開発」](https://www.ipa.go.jp/jinzai/mitou/2021/gaiyou_sd-3.html) 採択
     - [全自動筋トレ記録システム「Muscle Supporter」](https://muscle-supporter.com/) 紹介ページ
     - のちに[スーパークリエータに認定](https://www.ipa.go.jp/jinzai/mitou/it/qv6pgp000000ie9y-att/000098511.pdf)
--   \[2020/04-2022/03\] 東京大学工学部 [電気電子工学科](https://www.ee.t.u-tokyo.ac.jp/) (eeic2020)
-    -   \[2021/04-2022/03\] 東京大学工学部 [三田研究室](https://www.if.t.u-tokyo.ac.jp) (MEMS)
--  [2018/04-2022/03] [東京大学サイエンスコミュニケーションサークルCAST](https://ut-cast.net/) (会計・ウェブ担当)
--   \[2018/04-2020/03\] 東京大学教養学部理科一類
+- \[2018/04-2022/03\] [東京大学サイエンスコミュニケーションサークルCAST](https://ut-cast.net/) (会計・ウェブ担当)
+- \[2018/04-2020/03\] 東京大学教養学部理科一類
 
 ### Certifications
 
-- 応用情報技術者試験合格
+- 応用情報技術者
 - 情報処理安全確保支援士試験合格 (2023)
+- ネットワークスベシャリスト(2024)
 - 普通自動車第一種運転免許 (2022)
 
 ### Awards
