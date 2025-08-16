@@ -56,10 +56,6 @@
 - [Ebi's web lab](https://lab.ebiyuu.com/): ブラウザで動く雑多なプログラム置き場
     - [GitHub](https://github.com/ebiyu/web-lab)
 - [Ebi's bookmarklet library](https://bookmarklet.ebiyuu.com/)
-- [えび's Scrapbox](https://scrapbox.io/ebiyu/)
-    - ブログにするほどでもないメモ・ブログの下書きのようなものを置く場所
-- [全自動マリオカートTA記録システム](https://mktools.ebiyuu.com/) (2023)
-    - 準備中
 
 ## Past Projects
 
