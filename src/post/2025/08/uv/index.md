@@ -2,10 +2,10 @@
 layout: blog
 title: 2025年のPythonはuvで決まり
 date: 2025-08-02
-draft: true
+draft: false
 tags:
 ---
-今流行りのPythonのパッケージマネージャー "[uv](https://docs.astral.sh/uv/)" が便利でとりあえず全員に使ってほしい。みんなが使えばコードの共有がスムーズになります。
+今流行りのPythonのパッケージマネージャー "[uv](https://docs.astral.sh/uv/)" が便利でとりあえず全員に使ってほしい。「昨日まで動いていたコードが突然エラーになった」 「同僚にコードを渡したら動かなかった」 「venv使ってるけど、activateが面倒」といった経験がある人は特に見てください。
 
 この記事はそこまでPythonをガチで使っていない人（解析でPythonを使う研究者など）、パッケージ管理をやったことない人に向けた記事です。
 
@@ -66,7 +66,7 @@ deactivate # 仮想環境から出る
 - 必要なパッケージのリストを手動で管理しないといけない
 	- pip installはあくまで手動でやるため、例えば別のPCに移動する場合や他人に共有する場合はパッケージのリストを共有する必要がある。
 	- なお、このための仕組みはちゃんとpipに容易されており、
-		- `pip freeze > requirements.txt` でパッケージのリスト（ `requuirements.txt` ）を作成しておく。
+		- `pip freeze > requirements.txt` でパッケージのリスト（ `requirements.txt` ）を作成しておく。
 		- `pip install -r requirements.txt` で、リストを元にインストールできる。
 	- 新しいパッケージを入れたものの `requirements.txt` の更新を忘れていて、パッケージが足りなかったりなどもよく起こる。
 
@@ -81,6 +81,8 @@ deactivate # 仮想環境から出る
 3. `python {script}.py` の代わりに `uv run python {script}.py` で実行
 	- `uv run {script.py}` と省略可能
 4. 人にスクリプトを渡すときはフォルダごと（ `pyproject.toml` と一緒に）渡す
+	- gitを使っている場合は、 `pyproject.toml` をコミットする
+	- 「 `uv run script.py` で実行」してくださいと伝える。（READMEに書くなど）
 
 実際には上で説明した venv を使っているのだが、
 
@@ -94,6 +96,7 @@ deactivate # 仮想環境から出る
 	- 明示的に指定していないパッケージのバージョンも `uv.lock` に記録されるため、完全に環境が再現可能である。
 
 つまり、何も意識せずに使えばよい。
+ちなみに単純に `pip install` するよりも高速なのでそれだけでも便利。
 
 ## uvのインストール
 
@@ -143,7 +146,7 @@ uv python pin 3.11 # すでにinitしている場合には、python pinが使え
 なお、パッと違うバージョンで実行したい時には 
 
 ```sh
-uuv run --python 3.13 script.py
+uv run --python 3.13 script.py
 ```
 
 と指定して実行ができる。
@@ -193,7 +196,7 @@ uv run script.py
 
 `.py` スクリプトを共有する場合には依存関係を組み込んでおくと親切。
 
-## レシピ
+## 応用例
 
 他にも便利な使い方の例を紹介する。
 
@@ -213,9 +216,16 @@ uvx ruff format
 uv run --with jupyter jupyter lab
 ```
 
-`uv run` 時に `--with` で指定したパッケージを追加で一時的にインストールして実行することができる。これを活用すると、現在のフォルダの依存パッケージを保ったまま jupyter labを実行することができる。
+`uv run` 時に `--with` で指定したパッケージを追加で一時的に（ `pyproject.toml` に追加せずに）インストールして実行することができる。これを活用すると、現在のフォルダの依存パッケージを保ったまま jupyter labを実行することができる。
 
 [Running scripts | uv](https://docs.astral.sh/uv/guides/scripts/)
+
+## まとめ
+
+- パッケージ管理ツールを使うと、パッケージ依存に関するトラブルを避けることができる。
+- `uv` では基本的な使いかたを覚えるだけで使うことができる。
+- 他にも便利な機能がある。
+- とにかく将来の自分や他人のために使ってください。
 
 ## References
 
