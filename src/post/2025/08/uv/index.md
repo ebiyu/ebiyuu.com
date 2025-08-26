@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: 【2025年版】Pythonパッケージ管理の決定版「uv」- 覚えることは4つだけ
-date: 2025-08-02
+date: 2025-08-26
 draft: false
 tags:
 ---
