@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: 2025年のPythonはuvで決まり
+title: 【2025年版】Pythonパッケージ管理の決定版「uv」- 覚えることは4つだけ
 date: 2025-08-02
 draft: false
 tags:
