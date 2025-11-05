@@ -56,7 +56,12 @@ DuckDuckGo は単純に検索エンジンとして使い勝手がよく、特に
   - `!x` → twitter(x)
   - エンジニアにとっても便利。
     - `!py3` → python documentation, `!pip` → pypi, `!docker` → docker hub, `!gh` → github
+- 研究者向け (2025-11-05 追記)
+	- `!scholar` → google scholar, `!pubmed` → pubmed
+	- `!doi <doi>` → doi.org経由で直接文献を開くことができる
 - 必ずしも先頭である必要はなく、最後でも良いし、なんなら途中でも良い。
+- クエリを入れずにbangを実行するといい感じにトップページに移動してくれるので、簡易的なブックマークとしても使える
+	- 「!a」→amazonのトップページ など
 - bangの一覧は [DuckDuckGo !Bangs](https://duckduckgo.com/bangs) で参照することができる。
 
 ## ツールもいろいろついている
