@@ -12,7 +12,7 @@ ADC側で一定周期でサンプリングを実施してくれるモードで�
 
 ## 概要をつかむ
 
-[ADC API ドキュメント](https://docs.espressif.com/projects/arduino-esp32/en/latest/api/adc.html を参照しながら実装する。
+[ADC API ドキュメント](https://docs.espressif.com/projects/arduino-esp32/en/latest/api/adc.html) を参照しながら実装する。
 
 1. `analogContinous()` で初期化
 	- `sampling_freq_hz` サンプリング周波数、最終的に出力されるデータ
