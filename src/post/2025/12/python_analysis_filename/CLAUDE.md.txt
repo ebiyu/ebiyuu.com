@@ -1,0 +1,124 @@
+# CLAUDE.md
+## プロジェクトについて
+
+- 目的: 研究データの解析スクリプトの一元管理
+- 対象: 実験データ、解析結果、可視化スクリプトなど
+
+## Requirements
+
+- パッケージは `uv` で管理する。
+- 要求パッケージの一覧は `pyproject.toml` へ記載する。
+
+## フォルダ構造
+
+```
+_archive/                    # 昔の実験用スクリプト。必要に応じてアルゴリズムなどを参照するが、アーキテクチャなどは参考にしない。
+data/
+    yymm/                    # 年と月で分類
+        yymmdd_<slug>/       # 実験日と実験内容で分類
+            **/*.csv         # 実験データファイル
+scripts/
+    yymm/                    # プロジェクト名または年月で分類、細々としたものは年月で保存し、ある程度まとまったらプロジェクト名で保存
+        yymmdd_<slug>.py     # 解析スクリプト
+```
+
+## プロジェクトのルール
+
+1. データの配置
+    - 実験データは `data/` ディレクトリ配下に配置
+    - フォルダ名は `yymm/yymmdd_<slug>` の形式で作成
+        - これはユーザーが手動で配置する
+    - データファイルの形式は実験の種類によって異なる。csvが多い。
+2. 解析スクリプトの配置
+    - 解析スクリプトは `scripts/yymm` ディレクトリ配下に配置
+    - スクリプトファイル名は `yymmdd_<slug>.py` の形式で作成
+    - スクリプトファイルの共通化は行わない
+    - 解析スクリプトは直接実行可能にする
+        - 例: `uv run scripts/yymm/yymmdd_<slug>.py`
+    - 解析スクリプトのファイル名の日時は、 ** スクリプトを作成した日時 ** にすること。
+        - `date` コマンドで確認すること。
+    - スクリプトの編集後は `uvx ruff format {script}.py` でformatすること。
+
+## 命名規則
+
+- 解析スクリプト名: `scripts/yymm/yymmdd_<slug>.py`
+    - `yymm`: 解析を行った日(スクリプト作成日)の年月を表す2桁の数字（例: 2503）
+    - `yymmdd`: 解析を行った日(スクリプト作成日)を表す6桁の数字（例: 250315）
+    - `<slug>`: 実験内容を表す短い文字列（例: calibration, silicom_2mm_nozzle_by_day）
+        - 単語はアンダースコアで区切る
+        - 全て小文字を使用
+        - 実験条件や使用機器などの重要な情報を含める
+        - ただし、完全な条件を含める必要はない（実験ノートに記載するため）
+
+## 解析スクリプトの書き方
+
+### スクリプト形式の注意
+
+Python形式で作成する。
+
+命名規則: `scripts/yymm/yymmdd_name.py`
+
+- そのまま実行できるものにする。ファイルの共通部分を切り出すなどはせず、1ファイルで完結するようにする。
+- ファイルを移動しても実行ができるようにする。
+    - `data` を参照するときは `pyproject.toml` ファイルを目印に、親フォルダを探索する（後述の `find_project_root` を利用）。
+- 出力ファイルは、同名で拡張子だけを変更して出力する。
+    - `Path(__file__).with_suffix()` を利用
+    - グラフをプロットする場合は、特別な指示がない場合は1ファイル1スクリプトとする。つまり、複数枚の画像を作る場合には複数の独立した.pyスクリプトができることになる。
+
+典型的なプロットを行う場合のテンプレートは以下の通り。
+
+```py
+import matplotlib.pyplot as plt
+import matplotlib.ticker as ticker
+from pathlib import Path
+
+plt.style.use('ebi_mpl.lab')
+
+fig, ax = plt.subplots(figsize=(10, 8), constrained_layout=True) # example
+
+# plot here
+
+ax.xaxis.set_major_formatter(ticker.FormatStrFormatter('%g'))
+ax.yaxis.set_major_formatter(ticker.FormatStrFormatter('%g'))
+
+plt.savefig(Path(__file__).with_suffix('.png'))
+plt.show()
+```
+
+dataフォルダの探索を行う例は以下の通り。
+
+```py
+from pathlib import Path
+
+def find_project_root():
+    current_dir = Path(__file__).parent
+    while current_dir != current_dir.parent:
+        if (current_dir / 'pyproject.toml').exists():
+            return current_dir
+        current_dir = current_dir.parent
+    raise FileNotFoundError('pyproject.toml file not found')
+
+# Find data file
+project_root = find_project_root()
+data_file = project_root / 'data' / '250328_some_directory' / 'some_file.csv'
+
+# ...
+```
+
+### グラフ作成における注意
+
+- グラフのtitleは不要。
+- `%g` フォーマッタを適用して末尾のゼロを無効化してください。
+    - `import matplotlib.ticker as ticker` を行い、
+    - `ax.xaxis.set_major_formatter(ticker.FormatStrFormatter('%g'))`
+    - `ax.yaxis.set_major_formatter(ticker.FormatStrFormatter('%g'))`
+
+### スクリプトの実行
+
+`scripts/` 以下のスクリプトを作成や編集したら、
+
+```
+uv run scripts/yymm/yymmdd_name.py
+```
+
+で実行してください。
