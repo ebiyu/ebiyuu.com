@@ -1,0 +1,19 @@
+.excalidraw-svg > img,
+.image-embed > img {
+    border: 2px solid #0070c0;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8);
+    padding: 5px;
+}
+
+.block-language-dataviewjs {
+    background-color: #e5f4ff;
+    padding: 0 10px;
+    border-radius: 10px;
+    border: 2px dashed #0070c0;
+}
+
+@media print {
+    .block-language-dataviewjs {
+        display: none;
+    }
+}

@@ -1,5 +1,6 @@
 {
   "newLinkFormat": "relative",
   "useMarkdownLinks": true,
-  "attachmentFolderPath": "./image"
+  "attachmentFolderPath": "./image",
+  "showLineNumber": true
 }

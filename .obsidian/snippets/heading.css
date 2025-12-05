@@ -1,0 +1,33 @@
+.HyperMD-header.HyperMD-header-2.cm-line,
+.markdown-preview-view h2 {
+    border-left: 0.5em solid #0070c0;
+    background-color: #e5f4ff;
+    padding: 5px;
+    line-height: 1.5;
+}
+
+.HyperMD-header.HyperMD-header-3.cm-line,
+.markdown-preview-view h3 {
+    border-bottom: 2px solid #0070c0;
+}
+
+.HyperMD-header.HyperMD-header-4.cm-line,
+.markdown-preview-view h4 {
+    border-bottom: 1px dashed #0070c0;
+}
+
+/* .inline-title {
+    border-width: 2px;
+    border-color: rgb(194, 92, 194);
+    border-style: solid solid none;
+    border-radius: 20px 20px 0 0;
+    margin-bottom: 0;
+} */
+
+.inline-title {
+    border: 2px dashed #0070c0;
+    background-color: #e5f4ff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+}
