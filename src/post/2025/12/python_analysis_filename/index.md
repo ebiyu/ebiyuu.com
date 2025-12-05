@@ -2,7 +2,7 @@
 layout: blog
 title: 分析スクリプト迷子問題を解決する：1成果物＝1スクリプト運用
 date: 2025-12-05
-draft: true
+draft: false
 tags:
   - python
 ---
