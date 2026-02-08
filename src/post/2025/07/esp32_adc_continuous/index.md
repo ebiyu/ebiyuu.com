@@ -72,7 +72,7 @@ PlatformIOでは最新のesp-idfが使えないらしい。
 - 参照: [PlatformIOとEspressifの対立：コミュニティによる開発の現状](https://zenn.dev/kyjb/articles/6950231b231643)
 
 
-PlatformIOフォークの[platformio/platform\-espressif32](https://github.com/platformio/platform-espressif32) では最新版がメンテナンスされている。
+PlatformIOフォークの [pioarduino/platform-espressif32](https://github.com/pioarduino/platform-espressif32) では最新版がメンテナンスされている。
 
 `platformio.ini` のplatform欄に以下のように記述する。
 
