@@ -1,6 +1,6 @@
 ---
 layout: dotfiles.njk
-title: dotfiles
+title: VSCode
 ---
 VSCode: GUIのエディタ。
 
