@@ -1,19 +1,5 @@
 <!-- don't delete this comment -->
 
-## Current Projects
-
-### フレキシブルデバイスに関する研究
-
-所属: 東京大学大学院工学系研究科 染谷研究室
-
-- [染谷研究室 HP](http://www.ntech.t.u-tokyo.ac.jp)
-
-### 低遅延IP映像伝送システムの開発
-
-所属: 合同会社瞬景
-
-- [合同会社瞬景 HP](https://shunkei.jp/)
-
 ## Experiences
 
 - \[2025/04\] 東京大学大学院工学系研究科 [電気系工学専攻](https://www.eeis.t.u-tokyo.ac.jp)博士課程 入学
