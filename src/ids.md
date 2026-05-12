@@ -12,6 +12,7 @@ title: IDs - Yusuke Ebihara
 - Github: [ebiyu](https://github.com/ebiyu)
 - Instagram: [ebi__kun](https://instagram.com/ebi__kun/)
 - Qiita: [ebiyuu1121](https://qiita.com/ebiyuu1121)
+- ORCID: [0000-0002-2977-7361](https://orcid.org/0000-0002-2977-7361)
 - ポロロッカ: [ebiyuu1121](https://pororocca.com/user/2/)
 - AtCoder: [ebiyuu1121](https://atcoder.jp/users/ebiyuu1121)
 - Scratch: [ebiyuu1121](https://scratch.mit.edu/users/ebiyuu1121/)
