@@ -3,8 +3,7 @@ layout: blog
 title: SpotifyからApple Musicへ移行しての感想
 date: 2026-05-13
 draft: false
-tags:
-  -
+tags: []
 ---
 今までずっとSpotifyを使っていた（10年間程度）が、1週間前ごろからApple Musicを使ってみている。
 比較した感想を述べる。
