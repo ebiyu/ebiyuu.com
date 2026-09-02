@@ -4,7 +4,7 @@ title: PowerPointのショートカットキーまとめ
 date: 2026-09-02
 draft: false
 tags:
-  -
+  - powerpoint
 ---
 
 日本語キーボードを想定。
